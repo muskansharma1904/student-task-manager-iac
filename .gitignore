@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+*.auto.tfvars
+override.tf
+*.tfplan
+# NOTE: .terraform.lock.hcl ko commit karo (provider version lock)
+
+# Secrets
+.env
+*.pem
+
+# OS / editor
+.DS_Store
+node_modules/

@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill your values.
+# terraform.tfvars is git-ignored. Do NOT put the API token here.
+account_id        = "PASTE_YOUR_CLOUDFLARE_ACCOUNT_ID"
+worker_name       = "student-task-manager"
+kv_namespace_name = "student_tasks"
+environment       = "dev"
+app_name          = "Student Task Manager"
+workers_subdomain = "your-subdomain"   # e.g. muskan  -> muskan.workers.dev
